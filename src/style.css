@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background:rgb(157, 255, 0);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background: rgb(74, 107, 226);
+    padding: 50px;
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    background: rgb(247, 222, 222);
+    width: 300px;
+    margin-right: 10px;
+}
+button{
+    border-radius: 70px;
+    background: #454545;
+    padding: 8px;
+    border: none;
+    outline:none;
+    color:rgb(254, 254, 254);
+    cursor: pointer;
+    padding: 6px 10px;
+}
+.todos-list{
+    margin-top: 3rem;
+}
+.todo{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: greenyellow;
+    padding: 5px 20px;
+    margin: 10px;
+    font-family:sans-serif;
+}
+.close{
+    padding:5px 10px;
+    cursor: pointer;
+}
